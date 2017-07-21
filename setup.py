@@ -16,6 +16,6 @@ os.system("cp -r sql_injection.py /usr/local/bin")
 # Install required tools from Kali APT Repo
 os.system("sudo apt-get update && sudo apt-get install tor tsocks sqlmap vega arachni")
 # Install Python dependencies
-os.system("sudo pip install termcolor StringIO")
+os.system("sudo pip install termcolor")
 # Start the program
 os.system("sql_injection.py")
